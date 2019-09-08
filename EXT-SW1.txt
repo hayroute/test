@@ -76,7 +76,10 @@ interface Ethernet1/1
  duplex auto
 !
 interface Ethernet1/2
- duplex auto
+ duplex full
+ speed full
+ no switchport
+ description "test port"
 !
 interface Ethernet1/3
  duplex auto
