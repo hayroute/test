@@ -79,6 +79,7 @@ interface Ethernet1/2
  duplex full
  speed full
  no switchport
+ ip address 1.1.1.1 netmask 255.255.255.252
  description "test port"
 !
 interface Ethernet1/3
